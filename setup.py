@@ -11,11 +11,13 @@ with open('README.rst') as readme_file:
 with open('HISTORY.rst') as history_file:
     history = history_file.read()
 
-requirements = ['Click>=6.0', ]
+def read_file(filepath):
+    with open(filepath) as f:
+        return f.read()
 
-setup_requirements = ['pytest-runner', ]
+requirements = read_file('requirements.txt').splitlines()
 
-test_requirements = ['pytest', ]
+setup_requirements = read_file('requirements_dev.txt').splitlines()
 
 setup(
     author="Ratxi",
@@ -48,7 +50,7 @@ setup(
     packages=find_packages(include=['hoodex']),
     setup_requires=setup_requirements,
     test_suite='tests',
-    tests_require=test_requirements,
+    tests_require=setup_requirements,
     url='https://github.com/Ratxi/hoodex',
     version='0.1.0',
     zip_safe=False,
