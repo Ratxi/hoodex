@@ -31,11 +31,23 @@ Install using pip from pypi:
 
   pip install hoodex
 
+Usage
+-----
+
+You can set your variables via argument when running hoodex or via config file:
+
+.. code-block:: sh
+
+  hoodex --user my_user --password my_password --server my_server --libraries Movies,TV
+
+.. code-block:: sh
+
+  hoodex --config config.ini
 
 Config
 ------
 
-You can create a config.ini file with the following content:
+You can create a ini config file with the following content:
 
 .. code-block:: ini
 
