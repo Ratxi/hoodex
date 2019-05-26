@@ -28,6 +28,7 @@ Install
 Install using pip from pypi:
 
 .. code-block:: sh
+
   pip install hoodex
 
 
@@ -36,6 +37,7 @@ Config
 
 You can create a config.ini file with the following content:
 .. code-block:: ini
+
   [hoodex]
   PlexUserName = your_user
   PlexPassword = your_password
