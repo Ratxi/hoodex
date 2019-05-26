@@ -26,12 +26,4 @@ Hoodex checks your plex instance and get the url of the latest uploaded content
 Features
 --------
 
-* TODO
-
-Credits
--------
-
-This package was created with Cookiecutter_ and the `audreyr/cookiecutter-pypackage`_ project template.
-
-.. _Cookiecutter: https://github.com/audreyr/cookiecutter
-.. _`audreyr/cookiecutter-pypackage`: https://github.com/audreyr/cookiecutter-pypackage
+- Connect to your Plex Server and get the last added elements of a list of libraries
