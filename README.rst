@@ -36,6 +36,7 @@ Config
 ------
 
 You can create a config.ini file with the following content:
+
 .. code-block:: ini
 
   [hoodex]
