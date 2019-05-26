@@ -34,11 +34,15 @@ Install using pip from pypi:
 Usage
 -----
 
-You can set your variables via argument when running hoodex or via config file:
+You can set your variables via argument when running hoodex or via config file.
+
+With Arguments:
 
 .. code-block:: sh
 
   hoodex --user my_user --password my_password --server my_server --libraries Movies,TV
+
+With a config file:
 
 .. code-block:: sh
 
