@@ -48,7 +48,7 @@ def run_hoodex(plex_user=None, plex_password=None, plex_server=None, plex_librar
 
     libraries_dict = {}
 
-    for library in str.split(plex_libraries, ','):
+    for library in str.split(str(plex_libraries), ','):
         libraries_dict[library] = plex_server.get_last_added(library_name=library)
 
     print(libraries_dict)
